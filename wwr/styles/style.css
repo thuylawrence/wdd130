@@ -1,0 +1,42 @@
+nav, a {
+    text-align: center;
+}
+#hero-msg, h1 {
+    text-align: center;
+}
+#hero-msg, h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: white; 
+}
+header {
+    background-color:steelblue;
+}
+nav a:hover {
+    background-color: white;
+}
+.book, .join {
+    background-color: darkcyan;
+}                   
+.book:hover, .join:hover{
+    background-color: darksalmon;
+}
+#background {
+    background-color: beige;
+}
+.msg {
+    background-color: darkslategray;
+}
+footer {
+    background-color: khaki;
+}
