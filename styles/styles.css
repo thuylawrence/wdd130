@@ -1,8 +1,9 @@
 h1 {
   text-align: center;
 }
-  nav {
+  nav, footer {
     background-color: steelblue;
+    color: white;
     padding: 10px;
   }
   .main-para {
@@ -32,4 +33,12 @@ main p {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+a:hover {
+  background-color: white;
+  color: steelblue;
 }
