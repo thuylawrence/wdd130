@@ -1,5 +1,8 @@
-nav, a {
+nav a {
+    text-decoration: none;
     text-align: center;
+    color:darkgoldenrod
+    
 }
 #hero-msg, h1 {
     text-align: center;
@@ -24,12 +27,16 @@ header {
 }
 nav a:hover {
     background-color: white;
+    color:cadetblue
 }
 .book, .join {
+    text-decoration: none;
     background-color: darkcyan;
+    color:beige
 }                   
-.book:hover, .join:hover{
+.book:hover, .join:hover {
     background-color: darksalmon;
+    color:cadetblue
 }
 #background {
     background-color: beige;
@@ -38,5 +45,49 @@ nav a:hover {
     background-color: darkslategray;
 }
 footer {
-    background-color: khaki;
+    background-color:darkgrey;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  #background {
+    height: 725px;
+}
+.home-title {
+    color:darkslategray
+}   
+h4 {
+    color:lightblue
+}  
+.msg h2 {
+    color:lightblue
+}
+.msg p {
+    color:cadetblue
+}
+footer h3 {
+    color:darkgray
+}
+footer a {
+    text-decoration: none;
+    color:darkkhaki
+}
+footer a:hover {
+    color:darkcyan
+}
+#hero-img {
+    width: 100%;
+  }
+.icon {
+    width: 80px;
+}  
+.logo {
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
