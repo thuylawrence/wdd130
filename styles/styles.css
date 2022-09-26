@@ -1,12 +1,13 @@
 h1 {
-  text-align: center;
+  margin: 50px 0;
 }
-  nav, footer {
+nav, footer {
     background-color: steelblue;
     color: white;
     padding: 10px;
+    text-align: center;
   }
-  .main-para {
+.main-para {
     font-size: 1.5em;
     line-height: 1.5em;
 }
@@ -15,20 +16,24 @@ h1 {
   color: steelblue;
 }
 img {
+  border: 4px solid steelblue;
   width: 80%;
   display: block;
   margin: 0 auto
+  
 }
 p {
   width: 80%;
 }
+nav {
+  background-color: steelblue;
+  padding: 25px;
+}
 a {
+  padding: 25px;
   font-size: 1.5em;
-}
-
-nav, footer {
-  text-align: center;
-}
+  color: white
+  }
 main p {
   width: 80%;
   margin: 0 auto;
@@ -37,6 +42,7 @@ main p {
 footer p {
   font-size: 20px;
   margin: 20px auto;
+  padding: 25px;
 }
 a:hover {
   background-color: white;
@@ -44,4 +50,11 @@ a:hover {
 }
 #hero-img {
   width: 100%;
+}
+footer {
+  background-color: steelblue;
+  color: white
+}
+body {
+  margin: 0;
 }
