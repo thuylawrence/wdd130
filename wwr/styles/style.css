@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Open+Sans:ital,wght@1,500&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+
 nav a {
     text-decoration: none;
     text-align: center;
+    padding: 35px;
     color:darkgoldenrod
     
 }
@@ -21,6 +25,13 @@ main section {
 }
 body {
     background-color: white; 
+    font-family: Noto Sans Mono, Open Sans, Playfair Display;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:steelblue;
@@ -30,9 +41,14 @@ nav a:hover {
     color:cadetblue
 }
 .book, .join {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
     text-decoration: none;
     background-color: darkcyan;
     color:beige
+    
 }                   
 .book:hover, .join:hover {
     background-color: darksalmon;
@@ -43,8 +59,12 @@ nav a:hover {
 }
 .msg {
     background-color: darkslategray;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
+    padding: 25px 50px;
+    margin-top: 200px;
     background-color:darkgrey;
 }
 #content {
@@ -55,16 +75,23 @@ footer {
     height: 725px;
 }
 .home-title {
+    font-family: Noto Sans Mono, Open Sans, Playfair Display;
+    font-size: 2em;
+    margin-top: 10px;
     color:darkslategray
 }   
 h4 {
     color:lightblue
 }  
 .msg h2 {
+    font-family: Noto Sans Mono, Open Sans, Playfair Display;
     color:lightblue
 }
 .msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
     color:cadetblue
+
 }
 footer h3 {
     color:darkgray
@@ -81,6 +108,7 @@ footer a:hover {
   }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }  
 .logo {
     width: 80px;
@@ -94,4 +122,22 @@ footer p a:hover {
 }
 p {
     color:black
+}
+h1 {
+    font-family:Noto Sans Mono, Open Sans, Playfair Display ;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
