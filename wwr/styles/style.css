@@ -91,23 +91,23 @@ footer {
     font-family: Noto Sans Mono, Open Sans, Playfair Display;
     font-size: 2em;
     margin-top: 10px;
-    color:darkslategray
+    color: lightblue;
 }   
 h4 {
-    color:lightblue
+    color:lightblue;
 }  
 .msg h2 {
     font-family: Noto Sans Mono, Open Sans, Playfair Display;
-    color:lightblue
+    color:lightblue;
 }
 .msg p {
     font-size: .8em;
     padding-bottom: 15px;
-    color:cadetblue
+    color:cadetblue;
 
 }
 footer h3 {
-    color:darkgray
+    color:darkgray;
 }
 footer a {
     text-decoration: none;
