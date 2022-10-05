@@ -147,7 +147,7 @@ h1 {
 footer .social img {
     padding-top: 15px;
 }
-.river-card, .camping-card, .rapids-card {
+.rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
 .card-img {
@@ -180,7 +180,7 @@ main section img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.river-card {
+.rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
 }
@@ -192,7 +192,7 @@ main section img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
-.mountians {
+.mountains {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
