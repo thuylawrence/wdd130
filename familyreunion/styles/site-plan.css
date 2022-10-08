@@ -175,3 +175,9 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+p {
+  text-align: center;
+}
+.family-img {
+  width: 500px;
+}
