@@ -201,6 +201,10 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
+/* new style for rafting sub page */
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
