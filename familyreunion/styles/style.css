@@ -78,28 +78,37 @@
     justify-items: center;
     grid-gap: 20px;
     padding: 10px 10px 10px 10px;
-    border: 1px 1px 1px 1px 
+    border: 1px 1px 1px 1px;
+    object-fit: center;
 
 }
 #hiking {
     grid-column: 1/2;
     grid-row: 1/2;
     max-width: 100%;
+    width: 550px;
+    height: 400px;
 }
 #fishing {
     grid-column: 2/3;
     grid-row: 1/2;
     max-width: 100%;
+    width: 550px;
+    height: 400px;
 }
 #singing {
     grid-column: 1/2;
     grid-row: 2/3;
     max-width: 100%;
+    width: 550px;
+    height: 400px;
 }
 #camping {
     grid-column: 2/3;
     grid-row: 2/3;
     max-width: 100%;
+    width: 550px;
+    height: 400px;
 }
 footer {
     padding: 1em;
@@ -115,6 +124,10 @@ footer {
 }
 footer a {
     width: 200px;
+    margin-bottom: 16px;
+}
+.logo2 {
+  width: 200px;
     margin-bottom: 16px;
 }
     
