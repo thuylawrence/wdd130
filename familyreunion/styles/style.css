@@ -50,7 +50,9 @@
     padding: 35px;
     color:#62B6CB;
     font-size: 30px;
+    font-family: Playfair Display, Lato;
   }
+  
   nav {
     display: flex;
     justify-content: space-between;
@@ -63,7 +65,7 @@
 .intro p {
     font-size: 30px;
     color: #62B6CB;
-    
+    font-family: Playfair Display, Lato;
 }
 #main-photo1 {
     width: 100%;
@@ -71,7 +73,9 @@
 .info p {
     font-size: 30px;
     color: #62B6CB;
+    font-family: Playfair Display, Lato;
 }
+
 .past-activities {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -121,7 +125,9 @@ footer {
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
+    font-family: Playfair Display, Lato;
 }
+
 footer a {
     width: 200px;
     margin-bottom: 16px;
