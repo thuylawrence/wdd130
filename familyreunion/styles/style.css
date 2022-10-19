@@ -133,6 +133,7 @@ footer a {
     margin-bottom: 16px;
 }
 main {
-  background-color:#FCDAA7 ;
+  background-color:#FCDAA7;
+  max-width: 1200px;
 }
      
