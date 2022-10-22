@@ -35,7 +35,7 @@
     align-items: baseline;
     padding: 0.5em;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   .logo {
@@ -66,6 +66,8 @@
     font-size: 30px;
     color: #62B6CB;
     font-family: Playfair Display, Lato;
+    padding: 20px 20px 20px 20px;
+    line-height: 1.6;
 }
 #main-photo1 {
     width: 100%;
@@ -74,6 +76,8 @@
     font-size: 30px;
     color: #62B6CB;
     font-family: Playfair Display, Lato;
+    padding: 20px 20px 20px 20px;
+    line-height: 1.6;
 }
 
 .past-activities {
@@ -123,7 +127,7 @@ footer {
     align-items: baseline;
     padding: 0.5em;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     font-family: Playfair Display, Lato;
 }
@@ -139,14 +143,119 @@ main {
 .main-activities {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   margin: 0 auto;
-  gap: 2em
+  gap: 2em;
+  width: 100%;
 }
 #main-photo2 {
   grid-column: 1/3;
   grid-row: 1/2;
   width: 100%;
 }
-
+.main-activities img {
+  width: 100%;
+}
+.activity-p1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size:30px ;
+  font-family: Playfair Display, Lato;
+  padding: 10px 10px 10px 10px;
+  color: #62B6CB;
+  line-height: 1.6;
+}
+#bonfire {
+  grid-column: 2/3;
+  grid-row: 2/3;
   
+  
+}
+.activity-p2 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  font-size:30px ;
+  font-family: Playfair Display, Lato;
+  padding: 10px 20px 10px 20px;
+  color: #62B6CB;
+  line-height: 1.6;
+}
+
+#ziplining {
+  grid-column: 1/2;
+  grid-row:3/4;
+  
+}
+.activity-p3 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  font-size:30px ;
+  font-family: Playfair Display, Lato;
+  padding: 10px 20px 10px 20px;
+  color: #62B6CB;
+  line-height: 1.6;
+}
+
+#scavenger {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  height: 500px;
+}
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  gap: 2em;
+  width: 100%;
+}
+#main-photo3 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  width: 100%;
+}
+.meditation {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  font-size:30px ;
+  font-family: Playfair Display, Lato;
+  padding: 10px 20px 10px 20px;
+  color: #62B6CB;
+  line-height: 1.6;
+}
+.main-content img {
+  width: 100%;
+}
+#shooting {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  width: 550px;
+  height: 400px;
+  margin-left: 25px;
+}
+#water-activity {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  width: 550px;
+  height: 400px;
+}
+#boating {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  width: 550px;
+  height: 400px;
+  margin-left: 25px;
+}
+#movie-night {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  width: 550px;
+  height: 400px;
+}
+.final-words {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  font-size:30px ;
+  font-family: Playfair Display, Lato;
+  padding: 10px 20px 10px 20px;
+  color: #62B6CB;
+  line-height: 1.6;
+}
