@@ -86,8 +86,8 @@
     justify-items: center;
     grid-gap: 20px;
     padding: 10px 10px 10px 10px;
-    border: 1px 1px 1px 1px;
-    object-fit: center;
+    border: 1px 1px;
+    
 
 }
 #hiking {
